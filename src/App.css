@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border-right: 1px solid black; /* Single vertical line between columns */
+  padding: 8px 5px; /* 8px top/bottom, 5px left/right */
+  text-align: left;
+}
+
+.searchbar input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.searchbar {
+  width: 50%;
+  margin: 32px auto 24px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar input[type="text"]:focus {
+  border-color: #0078d4;
+  outline: none;
+  background-color: #f5faff;
+}
+
+table {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #f3f6fa;
+  font-weight: 600;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background: #f9fbfd;
+}
+th:last-child, td:last-child {
+  border-right: none; /* Remove right border from last column */
+}
+
+table, th, td {
+  border: none; /* Remove all other borders */
+}

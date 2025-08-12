@@ -1,0 +1,490 @@
+[
+    {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Order of the Phoenix",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Half-Blood Prince",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J. K. Rowling"
+    },
+    {
+        "title": "Malibu Rising",
+        "author": "Taylor Jenkins Reid"
+    },
+    {
+        "title": "Hidden Pictures",
+        "author": "Jason Rekulak"
+    },
+    {
+        "title": "If We Were Villains",
+        "author": "M. L. Rio"
+    },
+    {
+        "title": "The Lightning Thief",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "The Sea of Monsters",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "The Titan's Curse",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "The Last Olympian",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "The Chalice of The Gods",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "Wrath of the Triple Goddess",
+        "author": "Rick Riordan"
+    },
+    {
+        "title": "Beautiful World, Where Are You",
+        "author": "Sally Rooney"
+    },
+    {
+        "title": "Normal People",
+        "author": "Sally Rooney"
+    },
+    {
+        "title": "Intermezzo",
+        "author": "Sally Rooney"
+    },
+    {
+        "title": "A River Enchanted",
+        "author": "Rebecca Ross"
+    },
+    {
+        "title": "Blood Sugar",
+        "author": "Sascha Rothchild"
+    },
+    {
+        "title": "Home Before Dark",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "Final Girls",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "Lock Every Door",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "The Last Time I Lied",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "The House Across the Lake",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "The Only One Left",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "With A Vengeance",
+        "author": "Riley Sager"
+    },
+    {
+        "title": "The Anomaly",
+        "author": "Michael Rutger"
+    },
+    {
+        "title": "The Do Right",
+        "author": "Lisa Sandlin"
+    },
+    {
+        "title": "The Bird Boys",
+        "author": "Lisa Sandlin"
+    },
+    {
+        "title": "Gone For Good",
+        "author": "Joanna Schaffhausen"
+    },
+    {
+        "title": "Saint X",
+        "author": "Alexis Schaitkin"
+    },
+    {
+        "title": "The Survivors",
+        "author": "Alex Schulman"
+    },
+    {
+        "title": "A Darker Shade of Magic",
+        "author": "V. E. Schwab"
+    },
+    {
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V. E. Schwab"
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    },
+    {
+        "title": "",
+        "author": ""
+    }
+]
