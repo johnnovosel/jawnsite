@@ -43,7 +43,7 @@ function BookTable({ books, searchTerm }) {
     <table>
       <thead>
         <tr>
-          <th>Titty</th>
+          <th>Title</th>
           <th>Author</th>
         </tr>
       </thead>

@@ -1,14 +1,17 @@
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 90%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 th, td {
   border-right: 1px solid black; /* Single vertical line between columns */
-  padding: 8px 5px; /* 8px top/bottom, 5px left/right */
+  padding: 12px 8px;
   text-align: left;
+  word-wrap: break-word;
+  max-width: 300px;
 }
 
 .searchbar input[type="text"] {
@@ -22,7 +25,8 @@ th, td {
 }
 
 .searchbar {
-  width: 50%;
+  width: 90%;
+  max-width: 800px;
   margin: 32px auto 24px auto;
   display: flex;
   justify-content: center;
@@ -38,6 +42,8 @@ table {
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   border-radius: 10px;
   overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 th {
@@ -55,4 +61,27 @@ th:last-child, td:last-child {
 
 table, th, td {
   border: none; /* Remove all other borders */
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 10px 6px;
+    font-size: 0.9rem;
+  }
+
+  .searchbar {
+    width: 95%;
+    margin: 20px auto 16px auto;
+  }
+
+  .searchbar input[type="text"] {
+    padding: 10px 12px;
+  }
+}
+
+/* Add smooth scrolling for better mobile experience */
+* {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
