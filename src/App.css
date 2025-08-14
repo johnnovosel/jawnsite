@@ -85,3 +85,13 @@ table, th, td {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
+
+th.up {
+  background-image: url("./assets/up_arrow.png");
+}
+th.down {
+  background-image: url("./assets/down_arrow.png");
+}
+th.default {
+  background-image: url("./assets/default.png");
+}

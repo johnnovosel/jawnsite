@@ -16,53 +16,90 @@ function SearchBar({ searchTerm, searchTermChange }) {
 
 }
 
-function BookRow({ book }) {
+function BookTableHead({ columns, handleSorting }) {
+  const [sortField, setSortField] = useState("");
+  const [order, setOrder] = useState("asc");
+  const handleSortingChange = (accessor) => {
+    const sortOrder =
+      accessor === sortField && order === "asc" ? "desc" : "asc";
+    setSortField(accessor);
+    setOrder(sortOrder);
+    handleSorting(accessor, sortOrder);
+  };
+
   return (
-    <tr>
-      <td>{book.title}</td>
-      <td>{book.author}</td>
-    </tr>
-  )
+    <thead>
+      <tr>
+        {columns.map(({ label, accessor }) => {
+          const cl = sortField === accessor && order === "asc"
+              ? "up"
+              : sortField === accessor && order === "desc"
+                ? "down"
+                : "default";
+          return <th key={accessor} onClick={() => handleSortingChange(accessor)} className={cl}
+          >{label}</th>;
+        })}
+      </tr>
+    </thead>
+  );
 }
 
-function BookTable({ books, searchTerm }) {
-  const rows = [];
+function BookTableBody({ columns, tableData }) {
+  return (
+    <tbody>
+      {tableData.map((data) => {
+        return (
+          <tr key={data.id}>
+            {columns.map(({ accessor }) => {
+              return <td key={accessor}>{data[accessor]}</td>;
+            })}
+          </tr>
+        );
+      })}
+    </tbody>
+  );
+}
 
-  books.forEach((book) => {
+function BookTable({ searchTerm }) {
+
+  const [bookList, setBookList] = useState(BOOKS)
+
+  const handleSorting = (sortField, sortOrder) => {
+    if (sortField) {
+      const sorted = [...bookList].sort((a, b) => {
+        return (
+          a[sortField].localeCompare(b[sortField], "en", {
+            numeric: true,
+          }) * (sortOrder === "asc" ? 1 : -1)
+        );
+      });
+      setBookList(sorted);
+    }
+  };
+
+  const columns = [
+    { label: "Title", accessor: "title" },
+    { label: "Author", accessor: "author" },
+  ];
+
+  const rows = []
+
+  bookList.forEach((book) => {
     if (book.title.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1 ||
-        book.author.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) {
-      rows.push(
-        <BookRow
-          book={book}
-        />
-      );
+      book.author.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) {
+      rows.push(book);
     }
   });
 
   return (
     <table>
-      <thead>
-        <tr>
-          <th>Title</th>
-          <th>Author</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.length > 0 ? (
-          rows
-        ) : (
-          <tr>
-            <td colSpan={2} style={{ textAlign: 'center', fontStyle: 'italic', color: '#888' }}>
-              No books found
-            </td>
-          </tr>
-        )}
-      </tbody>
+      <BookTableHead columns={columns} handleSorting={handleSorting} />
+      <BookTableBody columns={columns} tableData={rows} />
     </table>
   );
 }
 
-function FilterableBookList({ books }) {
+function FilterableBookList() {
 
   const [searchTerm, setSearchTerm] = useState('')
 
@@ -72,7 +109,6 @@ function FilterableBookList({ books }) {
         searchTerm={searchTerm}
         searchTermChange={setSearchTerm} />
       <BookTable
-        books={books}
         searchTerm={searchTerm} />
     </div>
   )
@@ -80,5 +116,5 @@ function FilterableBookList({ books }) {
 
 export default function App() {
 
-  return <FilterableBookList books={BOOKS} />
+  return <FilterableBookList />
 }
