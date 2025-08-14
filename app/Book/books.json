@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 2,
+        "title": "Harry Potter and the Chamber Of Secrets",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 3,
+        "title": "Harry Potter and the Prisoner Of Azkaban",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 4,
+        "title": "Harry Potter and the Goblet Of Fire",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 5,
+        "title": "Harry Potter and the Order Of the Phoenix",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 6,
+        "title": "Harry Potter and the Half-Blood Prince",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 7,
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J. K. Rowling"
+    },
+    {
+        "id": 8,
+        "title": "Malibu Rising",
+        "author": "Taylor Jenkins Reid"
+    },
+    {
+        "id": 9,
+        "title": "Hidden Pictures",
+        "author": "Jason Rekulak"
+    },
+    {
+        "id": 10,
+        "title": "If We Were Villains",
+        "author": "M. L. Rio"
+    },
+    {
+        "id": 11,
+        "title": "The Lightning Thief",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 12,
+        "title": "The Sea Of Monsters",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 13,
+        "title": "The Titan's Curse",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 14,
+        "title": "The Last Olympian",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 15,
+        "title": "The Chalice Of The Gods",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 16,
+        "title": "Wrath Of the Triple Goddess",
+        "author": "Rick Riordan"
+    },
+    {
+        "id": 17,
+        "title": "Beautiful World, Where Are You",
+        "author": "Sally Rooney"
+    },
+    {
+        "id": 18,
+        "title": "Normal People",
+        "author": "Sally Rooney"
+    },
+    {
+        "id": 19,
+        "title": "Intermezzo",
+        "author": "Sally Rooney"
+    },
+    {
+        "id": 20,
+        "title": "A River Enchanted",
+        "author": "Rebecca Ross"
+    },
+    {
+        "id": 21,
+        "title": "Blood Sugar",
+        "author": "Sascha Rothchild"
+    },
+    {
+        "id": 22,
+        "title": "Home Before Dark",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 23,
+        "title": "Final Girls",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 24,
+        "title": "Lock Every Door",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 25,
+        "title": "The Last Time I Lied",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 26,
+        "title": "The House Across the Lake",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 27,
+        "title": "The Only One Left",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 28,
+        "title": "With A Vengeance",
+        "author": "Riley Sager"
+    },
+    {
+        "id": 29,
+        "title": "The Anomaly",
+        "author": "Michael Rutger"
+    },
+    {
+        "id": 30,
+        "title": "The Do Right",
+        "author": "Lisa Sandlin"
+    },
+    {
+        "id": 31,
+        "title": "The Bird Boys",
+        "author": "Lisa Sandlin"
+    },
+    {
+        "id": 32,
+        "title": "Gone For Good",
+        "author": "Joanna Schaffhausen"
+    },
+    {
+        "id": 33,
+        "title": "Saint X",
+        "author": "Alexis Schaitkin"
+    },
+    {
+        "id": 34,
+        "title": "The Survivors",
+        "author": "Alex Schulman"
+    },
+    {
+        "id": 35,
+        "title": "A Darker Shade Of Magic",
+        "author": "V. E. Schwab"
+    },
+    {
+        "id": 36,
+        "title": "The Invisible Life Of Addie LaRue",
+        "author": "V. E. Schwab"
+    },
+    {
+        "id": 37,
+        "title": "The Lovely Bones",
+        "author": "Alice Sebold"
+    },
+    {
+        "id": 38,
+        "title": "In Five Years",
+        "author": "Rebecca Serle"
+    },
+    {
+        "id": 39,
+        "title": "The Cartographers",
+        "author": "Peng Shepherd"
+    },
+    {
+        "id": 40,
+        "title": "Girl, Forgotten",
+        "author": "Karen Slaughter"
+    },
+    {
+        "id": 41,
+        "title": "The Silent Wife",
+        "author": "Karen Slaughter"
+    },
+    {
+        "id": 42,
+        "title": "False Witness",
+        "author": "Karen Slaughter"
+    },
+    {
+        "id": 43,
+        "title": "Stargirl",
+        "author": "Jerry Spinelli"
+    },
+    {
+        "id": 44,
+        "title": "The Family Game",
+        "author": "Catherine Steadman"
+    },
+    {
+        "id": 45,
+        "title": "Missing, Presumed",
+        "author": "Susie Steiner"
+    },
+    {
+        "id": 46,
+        "title": "Persons Unknown",
+        "author": "Susie Steiner"
+    },
+    {
+        "id": 47,
+        "title": "The Lost Village",
+        "author": "Camilla Sten"
+    },
+    {
+        "id": 48,
+        "title": "Never Let You Go",
+        "author": "Chevy Stevens"
+    },
+    {
+        "id": 49,
+        "title": "Dark Roads",
+        "author": "Chevy Stevens"
+    },
+    {
+        "id": 50,
+        "title": "Everyone In My Family Has Killed Someone",
+        "author": "Benjamin Stevenson"
+    },
+    {
+        "id": 51,
+        "title": "Everyone On This Train Is A Suspect",
+        "author": "Benjamin Stevenson"
+    },
+    {
+        "id": 52,
+        "title": "The Book Of Cold Cases",
+        "author": "Simone St. James"
+    },
+    {
+        "id": 53,
+        "title": "The Broken Girls",
+        "author": "Simone St. James"
+    },
+    {
+        "id": 54,
+        "title": "The Sun Down Motel",
+        "author": "Simone St. James"
+    },
+    {
+        "id": 55,
+        "title": "Not That I Could Tell",
+        "author": "Jessica Strawser"
+    },
+    {
+        "id": 56,
+        "title": "The Amulet Of Samarkand",
+        "author": "Jonathan Stroud"
+    },
+    {
+        "id": 57,
+        "title": "The Golem's Eye",
+        "author": "Jonathan Stroud"
+    },
+    {
+        "id": 58,
+        "title": "Plolemy's Gate",
+        "author": "Jonathan Stroud"
+    },
+    {
+        "id": 59,
+        "title": "The Ring Of Solomon",
+        "author": "Jonathan Stroud"
+    },
+    {
+        "id": 60,
+        "title": "The Chestnut Man",
+        "author": "Soren Sveistrup"
+    },
+    {
+        "id": 61,
+        "title": "Before She Knew Him",
+        "author": "Peter Swanson"
+    },
+    {
+        "id": 62,
+        "title": "All The Beautiful Lies",
+        "author": "Peter Swanson"
+    },
+    {
+        "id": 63,
+        "title": "Eight Perfect Murders",
+        "author": "Peter Swanson"
+    },
+    {
+        "id": 64,
+        "title": "Pearce Oysters",
+        "author": "Joselyn Takacs"
+    },
+    {
+        "id": 65,
+        "title": "The Secret History",
+        "author": "Donna Tartt"
+    },
+    {
+        "id": 66,
+        "title": "The Secret Next Door",
+        "author": "Becca Taylor"
+    },
+    {
+        "id": 67,
+        "title": "Kill Creek",
+        "author": "Scott Thomas"
+    },
+    {
+        "id": 68,
+        "title": "The Marlow Murder Club",
+        "author": "Robert Thorogood"
+    },
+    {
+        "id": 69,
+        "title": "Death Comes To Marlow",
+        "author": "Robert Thorogood"
+    },
+    {
+        "id": 70,
+        "title": "The Queen Of Poisons",
+        "author": "Robert Thorogood"
+    },
+    {
+        "id": 71,
+        "title": "What Comes After",
+        "author": "Joanne Tompkins"
+    },
+    {
+        "id": 72,
+        "title": "The Good Lie",
+        "author": "A. R. Torre"
+    },
+    {
+        "id": 73,
+        "title": "The Cabin At The End Of The World",
+        "author": "Paul Tremblay"
+    },
+    {
+        "id": 74,
+        "title": "The Burning Girls",
+        "author": "C. J. Tudor"
+    },
+    {
+        "id": 75,
+        "title": "The Hiding Place",
+        "author": "C. J. Tudor"
+    },
+    {
+        "id": 76,
+        "title": "The Chalk Man",
+        "author": "C. J. Tudor"
+    },
+    {
+        "id": 77,
+        "title": "The Other People",
+        "author": "C. J. Tudor"
+    },
+    {
+        "id": 78,
+        "title": "The Devil And The Dark Water",
+        "author": "Stuart Turton"
+    },
+    {
+        "id": 79,
+        "title": "French Braid",
+        "author": "Anne Tyler"
+    },
+    {
+        "id": 80,
+        "title": "The Lifeguards",
+        "author": "Amanda Eyre Ward"
+    }
+]

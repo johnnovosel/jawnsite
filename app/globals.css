@@ -1,0 +1,60 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+th,
+td {
+  border-right: 1px solid black;
+  /* Single vertical line between columns */
+  padding: 12px 8px;
+  text-align: left;
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+
+th {
+  background: #f3f6fa;
+  font-weight: 600;
+  color: #333;
+}
+
+tr:nth-child(even) td {
+  background: #f9fbfd;
+}
+
+table, th, td {
+  border: none; /* Remove all other borders */
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 10px 6px;
+    font-size: 0.9rem;
+  }
+
+  .searchbar {
+    width: 95%;
+    margin: 20px auto 16px auto;
+  }
+
+  .searchbar input[type="text"] {
+    padding: 10px 12px;
+  }
+}
+
+/* Add smooth scrolling for better mobile experience */
+* {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
