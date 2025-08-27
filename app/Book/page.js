@@ -3,7 +3,7 @@
 import React from 'react';
 import styles from './_components/book.module.css';
 import BOOKS from './_data/all-books.json'
-import BookTable from '../book/_components/bookTable';
+import BookTable from './_components/bookTable';
 
 const columns = [
   { label: "Title", accessor: "title" },
