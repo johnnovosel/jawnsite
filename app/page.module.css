@@ -1,0 +1,58 @@
+
+/* Large, attention-grabbing button (desktop) with a gentle 'blink' pulse.
+   Responsive rules below shrink the button for small screens and respect
+   users who prefer reduced motion. */
+
+.ctabutton {
+  display: inline-block;
+  font-size: 2.2rem;
+  padding: 20px 44px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #ff6b6b 0%, #ffb86b 60%);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 120ms ease, box-shadow 200ms ease;
+  -webkit-tap-highlight-color: transparent;
+  animation: blink-pulse 1.4s ease-in-out infinite;
+}
+
+.ctabutton:active {
+  transform: translateY(2px) scale(0.995);
+}
+
+@keyframes blink-pulse {
+  0% {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18), 0 0 0 0 rgba(255,183,77,0.0);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 14px 40px rgba(0,0,0,0.20), 0 0 40px 8px rgba(255,183,77,0.22);
+    transform: scale(1.03);
+  }
+  100% {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18), 0 0 0 0 rgba(255,183,77,0.0);
+    transform: scale(1);
+  }
+}
+
+/* Mobile: reduce size and intensity so the button remains usable on small screens */
+@media screen and (max-width: 600px) {
+  .ctabutton {
+    font-size: 1.05rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    animation-duration: 1.6s;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ctabutton {
+    animation: none !important;
+    transition: none !important;
+  }
+}
