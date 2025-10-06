@@ -16,7 +16,7 @@ export default function InputBook() {
         const formData = new FormData(form);
 
         // Or you can work with it as a plain object:
-        const formJson = Object.fromEntries(formData.entries());
+        // const formJson = Object.fromEntries(formData.entries());
 
         let newID = findMaxID(BOOKS) + 1
 
@@ -88,8 +88,4 @@ function findMaxID(books) {
         }
     });
     return maxId;
-}
-
-function appendBook(newBook) { 
-
 }
