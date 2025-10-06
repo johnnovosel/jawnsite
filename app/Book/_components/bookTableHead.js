@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './book.module.css';
 
 export default function BookTableHead({ columns, handleSorting }) {
-    const [sortField, setSortField] = React.useState("");
+    const [sortField, setSortField] = React.useState("author");
     const [order, setOrder] = React.useState("asc");
     const handleSortingChange = (accessor) => {
         const sortOrder =

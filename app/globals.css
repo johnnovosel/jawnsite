@@ -13,8 +13,6 @@ table {
 
 th,
 td {
-  border-right: 1px solid black;
-  /* Single vertical line between columns */
   padding: 12px 8px;
   text-align: left;
   word-wrap: break-word;

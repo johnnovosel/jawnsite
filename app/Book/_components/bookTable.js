@@ -4,6 +4,12 @@ import BookTableBody from './bookTableBody';
 
 export default function BookTable({ columns, searchTerm, BOOKS }) {
 
+  BOOKS.sort((a, b) => {
+    const authorA = a.author.split(' ').pop();
+    const authorB = b.author.split(' ').pop();
+    return authorA.localeCompare(authorB, "en", { numeric: true });
+  });
+
   const [bookList, setBookList] = React.useState(BOOKS)
 
   const handleSorting = (sortField, sortOrder) => {

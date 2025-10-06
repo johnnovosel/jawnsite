@@ -16,7 +16,7 @@ RUN --mount=type=cache,target=/root/.npm npm install
 COPY . .
 
 # Expose the port used by the Vite development server
-EXPOSE 8080
+EXPOSE 8000
 
 # Use a default command, can be overridden in Docker compose.yml file
 CMD ["npm", "run", "build"]
