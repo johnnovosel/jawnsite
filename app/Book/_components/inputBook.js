@@ -12,8 +12,8 @@ export default function InputBook() {
         e.preventDefault();
 
         // Read the form data
-        const form = e.target;
-        const formData = new FormData(form);
+        // const form = e.target;
+        // const formData = new FormData(form);
 
         // Or you can work with it as a plain object:
         // const formJson = Object.fromEntries(formData.entries());
