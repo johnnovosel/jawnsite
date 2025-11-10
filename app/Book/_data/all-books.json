@@ -1399,7 +1399,7 @@
   },
   {
     "id": 234,
-    "title": "The Haunting Party",
+    "title": "The Hunting Party",
     "author": "Lucy Foley",
     "isLoaned": false
   },
@@ -2523,6 +2523,90 @@
     "id": 421,
     "title": "Play Nice",
     "author": "Rachel Harrison",
+    "isLoaned": false
+  },
+  {
+    "id": 422,
+    "title": "Lightbreakers",
+    "author": "Aja Gabel",
+    "isLoaned": false
+  },
+  {
+    "id": 423,
+    "title": "Her One Regret",
+    "author": "Donna Freitas",
+    "isLoaned": false
+  },
+  {
+    "id": 424,
+    "title": "Where He Left Me",
+    "author": "Nicole Baart",
+    "isLoaned": false
+  },
+  {
+    "id": 425,
+    "title": "The House In The Pines",
+    "author": "Ana Reyes",
+    "isLoaned": false
+  },
+  {
+    "id": 426,
+    "title": "The Measure",
+    "author": "Nikki Erlick",
+    "isLoaned": false
+  },
+  {
+    "id": 427,
+    "title": "The Secret of Secrets",
+    "author": "Dan Brown",
+    "isLoaned": false
+  },
+  {
+    "id": 428,
+    "title": "Horror Movie",
+    "author": "Paul Tremblay",
+    "isLoaned": false
+  },
+  {
+    "id": 429,
+    "title": "The Long Walk",
+    "author": "Stephen King",
+    "isLoaned": false
+  },
+  {
+    "id": 430,
+    "title": "The Lost Man",
+    "author": "Jane Harper",
+    "isLoaned": false
+  },
+  {
+    "id": 431,
+    "title": "Songs For Other People's Weddings",
+    "author": "David Levithan & Jens Lerman",
+    "isLoaned": false
+  },
+  {
+    "id": 432,
+    "title": "So Far Gone",
+    "author": "Jess Walter",
+    "isLoaned": false
+  },
+  {
+    "id": 433,
+    "title": "Murder By The Book",
+    "author": "Amie Schaumberg",
+    "isLoaned": false
+  },
+  {
+    "id": 434,
+    "title": "Note Quite Dead Yet",
+    "author": "Holly Jackson",
+    "isLoaned": false
+  },
+  {
+    "id": 435,
+    "title": "The Emperor Of Gladness",
+    "author": "Ocean Young",
     "isLoaned": false
   }
 ]
