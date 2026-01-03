@@ -1,12 +1,9 @@
 'use client'
 
 import React from 'react';
-import BOOKS from '../_data/all-books.json'
 import BookTable from './bookTable';
 import SearchBar from './searchBar';
 import InputBook from './inputBook';
-
-// const BOOKS = []
 
 const columns = [
     { label: "Title", accessor: "title" },
@@ -16,33 +13,40 @@ const columns = [
 export default function FilterableBookList() {
 
     const [searchTerm, setSearchTerm] = React.useState('')
+    const [books, setBooks] = React.useState([]);
+    const [isLoading, setIsLoading] = React.useState(true);
 
-    // const [data, setData] = React.useState(null);
+    const loadBooks = async () => {
+        try {
+            const response = await fetch('/api/books');
+            if (response.ok) {
+                const data = await response.json();
+                setBooks(data);
+            }
+        } catch (error) {
+            console.error('Error loading books:', error);
+        } finally {
+            setIsLoading(false);
+        }
+    };
 
-    // React.useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const response = await fetch('http://localhost:8080/book');
-    //             const result = await response.json();
-    //             setData(result);
-    //         } catch (error) {
-    //             console.error('Fetch error:', error);
-    //         }
-    //     };
-    //     fetchData();
-    // }, []); // Empty dependency array means this runs once on mount
+    React.useEffect(() => {
+        loadBooks();
+    }, []);
 
-    // console.log("Data:", data);
+    if (isLoading) {
+        return <div>Loading books...</div>;
+    }
 
     return (
         <div>
-            <InputBook />
+            <InputBook onBookAdded={loadBooks} />
             <SearchBar
                 searchTerm={searchTerm}
                 searchTermChange={setSearchTerm} />
             <BookTable
                 searchTerm={searchTerm}
-                BOOKS={BOOKS}
+                BOOKS={books}
                 columns={columns} />
         </div>
     )

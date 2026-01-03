@@ -12,6 +12,11 @@ export default function BookTable({ columns, searchTerm, BOOKS }) {
 
   const [bookList, setBookList] = React.useState(BOOKS)
 
+  // Update bookList when BOOKS prop changes
+  React.useEffect(() => {
+    setBookList(BOOKS);
+  }, [BOOKS]);
+
   const handleSorting = (sortField, sortOrder) => {
     const sorted = [...bookList].sort((a, b) => {
 

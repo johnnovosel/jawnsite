@@ -1,26 +1,54 @@
 'use client'
 
 import React from 'react';
-import BOOKS from '../_data/all-books.json'
 import styles from './book.module.css';
+import { addBook } from './actions';
 
-export default function InputBook() {
+export default function InputBook({ onBookAdded }) {
     const [showAddBookForm, setShowAddBookForm] = React.useState(false)
+    const [isLoading, setIsLoading] = React.useState(false)
+    const [error, setError] = React.useState(null)
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         // Prevent the browser from reloading the page
         e.preventDefault();
+        setIsLoading(true);
+        setError(null);
 
-        // Read the form data
-        // const form = e.target;
-        // const formData = new FormData(form);
+        try {
+            // Get form data
+            const form = e.target;
+            const formData = new FormData(form);
+            const title = formData.get('bookTitle');
+            const author = formData.get('bookAuthor');
 
-        // Or you can work with it as a plain object:
-        // const formJson = Object.fromEntries(formData.entries());
+            // Validate inputs
+            if (!title.trim() || !author.trim()) {
+                setError('Title and Author are required');
+                setIsLoading(false);
+                return;
+            }
 
-        let newID = findMaxID(BOOKS) + 1
+            // Call server action to save the book
+            const result = await addBook(title, author);
 
-        console.log(newID);
+            if (result.success) {
+                // Reset form and close dialog
+                form.reset();
+                setShowAddBookForm(false);
+                setError(null);
+                // Call the callback to refresh the book list
+                if (onBookAdded) {
+                    onBookAdded();
+                }
+            } else {
+                setError(result.error || 'Failed to add book');
+            }
+        } catch (err) {
+            setError(err.message || 'An error occurred');
+        } finally {
+            setIsLoading(false);
+        }
     }
 
     return (
@@ -78,14 +106,4 @@ export default function InputBook() {
             )}
         </div>
     );
-}
-
-function findMaxID(books) {
-    let maxId = 0;
-    books.forEach(book => {
-        if (book.id > maxId) {
-            maxId = book.id;
-        }
-    });
-    return maxId;
 }
