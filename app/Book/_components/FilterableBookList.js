@@ -14,7 +14,6 @@ export default function FilterableBookList() {
 
     const [searchTerm, setSearchTerm] = React.useState('')
     const [books, setBooks] = React.useState([]);
-    const [isLoading, setIsLoading] = React.useState(true);
 
     const loadBooks = async () => {
         try {
@@ -25,8 +24,6 @@ export default function FilterableBookList() {
             }
         } catch (error) {
             console.error('Error loading books:', error);
-        } finally {
-            setIsLoading(false);
         }
     };
 
@@ -34,9 +31,6 @@ export default function FilterableBookList() {
         loadBooks();
     }, []);
 
-    if (isLoading) {
-        return <div>Loading books...</div>;
-    }
 
     return (
         <div>
