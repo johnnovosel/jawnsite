@@ -15,8 +15,8 @@ RUN --mount=type=cache,target=/root/.npm npm install
 # Copy the rest of the application source code into the container
 COPY . .
 
-# Expose the port used by the Vite development server
+# Expose the port used by the Next server in production
 EXPOSE 8000
 
-# Use a default command, can be overridden in Docker compose.yml file
-CMD ["npm", "run", "build"]
+# Build the app and then start the Next production server so API routes run
+CMD ["sh", "-lc", "npm run build && npm run start"]

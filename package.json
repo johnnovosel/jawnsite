@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "npx serve@latest ./build"
+    "start": "next start -p 8000"
   },
   "dependencies": {
     "eslint-config-next": "^16.1.1",
