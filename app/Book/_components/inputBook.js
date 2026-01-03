@@ -5,7 +5,7 @@ import styles from './book.module.css';
 import { addBook } from './actions';
 
 export default function InputBook({ onBookAdded }) {
-    const [showAddBookForm, setShowAddBookForm] = React.useState(false)
+    const [showAddBookForm, setShowAddBookForm] = React.useState(false);
 
     async function handleSubmit(e) {
         // Prevent the browser from reloading the page
@@ -20,6 +20,7 @@ export default function InputBook({ onBookAdded }) {
 
             // Validate inputs
             if (!title.trim() || !author.trim()) {
+                console.error('Title and Author are required');
                 return;
             }
 
@@ -29,15 +30,18 @@ export default function InputBook({ onBookAdded }) {
             if (result.success) {
                 // Reset form and close dialog
                 form.reset();
-                setShowAddBookForm(false);
+                console.log('Book added with ID:', result.id);
                 // Call the callback to refresh the book list
                 if (onBookAdded) {
                     onBookAdded();
                 }
             } else {
+                console.error(result.error || 'Failed to add book');
             }
         } catch (err) {
+            console.error(err.message || 'An error occurred');
         } finally {
+            console.log('Add book process completed');
         }
     }
 
