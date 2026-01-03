@@ -6,14 +6,10 @@ import { addBook } from './actions';
 
 export default function InputBook({ onBookAdded }) {
     const [showAddBookForm, setShowAddBookForm] = React.useState(false)
-    const [isLoading, setIsLoading] = React.useState(false)
-    const [error, setError] = React.useState(null)
 
     async function handleSubmit(e) {
         // Prevent the browser from reloading the page
         e.preventDefault();
-        setIsLoading(true);
-        setError(null);
 
         try {
             // Get form data
@@ -24,8 +20,6 @@ export default function InputBook({ onBookAdded }) {
 
             // Validate inputs
             if (!title.trim() || !author.trim()) {
-                setError('Title and Author are required');
-                setIsLoading(false);
                 return;
             }
 
@@ -36,18 +30,14 @@ export default function InputBook({ onBookAdded }) {
                 // Reset form and close dialog
                 form.reset();
                 setShowAddBookForm(false);
-                setError(null);
                 // Call the callback to refresh the book list
                 if (onBookAdded) {
                     onBookAdded();
                 }
             } else {
-                setError(result.error || 'Failed to add book');
             }
         } catch (err) {
-            setError(err.message || 'An error occurred');
         } finally {
-            setIsLoading(false);
         }
     }
 
