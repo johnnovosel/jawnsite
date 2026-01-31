@@ -1820,7 +1820,7 @@
   {
     "id": 304,
     "title": "Things We Do In The Dark",
-    "author": "Jennifier Hillier",
+    "author": "Jennifer Hillier",
     "isLoaned": false
   },
   {
@@ -2613,6 +2613,108 @@
     "id": 436,
     "title": "The Invited",
     "author": "Jennifer McMahon",
+    "isLoaned": false
+  },
+  {
+    "id": 437,
+    "title": "The Librarianist",
+    "author": "Patrick Dewitt",
+    "isLoaned": false
+  },
+  {
+    "id": 438,
+    "title": "Fortune Favors The Dead",
+    "author": "Stephen Spotswood",
+    "isLoaned": false
+  },
+  {
+    "id": 439,
+    "title": "Heartwood",
+    "author": "Amity Gaige",
+    "isLoaned": false
+  },
+  {
+    "id": 440,
+    "title": "The Will Of The Many",
+    "author": "James Islington",
+    "isLoaned": false
+  },
+  {
+    "id": 441,
+    "title": "Bad Nature",
+    "author": "Ariel Courage",
+    "isLoaned": false
+  },
+  {
+    "id": 442,
+    "title": "The Troop",
+    "author": "Nick Cutter",
+    "isLoaned": false
+  },
+  {
+    "id": 443,
+    "title": "Tell Me What You Did",
+    "author": "Carter Wilson",
+    "isLoaned": false
+  },
+  {
+    "id": 444,
+    "title": "Murder Under Her Skin",
+    "author": "Stephen Spotswood",
+    "isLoaned": false
+  },
+  {
+    "id": 445,
+    "title": "Fifty Fifty",
+    "author": "Steve Cavanagh",
+    "isLoaned": false
+  },
+  {
+    "id": 446,
+    "title": "The Unknown",
+    "author": "Riley Sager",
+    "isLoaned": false
+  },
+  {
+    "id": 447,
+    "title": "Secrets Typed In Blood",
+    "author": "Stephen Spotswood",
+    "isLoaned": false
+  },
+  {
+    "id": 448,
+    "title": "Dead In The Frame",
+    "author": "Stephen Spotswood",
+    "isLoaned": false
+  },
+  {
+    "id": 449,
+    "title": "Severance",
+    "author": "Ling Ma",
+    "isLoaned": false
+  },
+  {
+    "id": 450,
+    "title": "No Sleep Till Wonderland",
+    "author": "Paul Tremblay",
+    "isLoaned": false
+  },
+  {
+    "id": 451,
+    "title": "The Butcher",
+    "author": "Jennifer Hillier",
+    "isLoaned": false
+  },
+  {
+    "id": 452,
+    "title": "Model Home",
+    "author": "Rivers Solomon",
+    "isLoaned": false
+  },
+  {
+    "id": 453,
+    "title": "The List Of Suspicious Things",
+    "author": "Jennie Godfrey",
     "isLoaned": false
   }
 ]
