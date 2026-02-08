@@ -2716,5 +2716,35 @@
     "title": "The List Of Suspicious Things",
     "author": "Jennie Godfrey",
     "isLoaned": false
+  },
+  {
+    "id": 454,
+    "title": "Thin Places",
+    "author": "Kay Chronister",
+    "isLoaned": false
+  },
+  {
+    "id": 455,
+    "title": "Rage",
+    "author": "Linda Castillo",
+    "isLoaned": false
+  },
+  {
+    "id": 456,
+    "title": "The Burning Library",
+    "author": "Gilly MacMillan",
+    "isLoaned": false
+  },
+  {
+    "id": 457,
+    "title": "Mary",
+    "author": "Nat Cassidy",
+    "isLoaned": false
+  },
+  {
+    "id": 458,
+    "title": "When The Wolf Comes Home",
+    "author": "Nat Cassidy",
+    "isLoaned": false
   }
 ]
