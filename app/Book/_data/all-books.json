@@ -2770,5 +2770,251 @@
     "title": "My Husband's Wife",
     "author": "Alice Feeney",
     "isLoaned": false
+  },
+  {
+    "id": 463,
+    "title": "The Keeper",
+    "author": "Tana French",
+    "isLoaned": false
+  },
+  {
+    "id": 464,
+    "title": "What Stalks The Dead",
+    "author": "T. Kingfisher",
+    "isLoaned": false
+  },
+  {
+    "id": 465,
+    "title": "Wolf Worm",
+    "author": "T. Kingfisher",
+    "isLoaned": false
+  },
+  {
+    "id": 466,
+    "title": "The Monogram Murders",
+    "author": "Agatha Christie, Sophie Hannah",
+    "isLoaned": false
+  },
+  {
+    "id": 467,
+    "title": "The Man in the Brown Suit",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 468,
+    "title": "Endless Night",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 469,
+    "title": "Sparkling Cyanide",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 470,
+    "title": "The Sittaford Mystery",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 471,
+    "title": "Murder Is Easy",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 472,
+    "title": "Why Didn't They Ask Evans?",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 473,
+    "title": "The Secret of Chimneys",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 474,
+    "title": "Crooked House",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 475,
+    "title": "Ordeal by Innocence",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 476,
+    "title": "The Seven Dials Mystery",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 477,
+    "title": "Towards Zero",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 478,
+    "title": "Murder Crossed Her Mind",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 479,
+    "title": "The Burning Side",
+    "author": "Sarah Damoff",
+    "isLoaned": false
+  },
+  {
+    "id": 480,
+    "title": "Homebound",
+    "author": "Portia Elan",
+    "isLoaned": false
+  },
+  {
+    "id": 481,
+    "title": "Molka",
+    "author": "Monika Kim",
+    "isLoaned": false
+  },
+  {
+    "id": 482,
+    "title": "Famous Last Words",
+    "author": "Gillian Flynn",
+    "isLoaned": false
+  },
+  {
+    "id": 483,
+    "title": "The Ending Writes Itself",
+    "author": "Evelyn Clarke",
+    "isLoaned": false
+  },
+  {
+    "id": 484,
+    "title": "Nothing Tastes as Good",
+    "author": "Luke Dumas",
+    "isLoaned": false
+  },
+  {
+    "id": 485,
+    "title": "This Story Might Save Your Life",
+    "author": "Tiffany Crum",
+    "isLoaned": false
+  },
+  {
+    "id": 486,
+    "title": "Kin",
+    "author": "Tayari Jones",
+    "isLoaned": false
+  },
+  {
+    "id": 487,
+    "title": "Bury Our Bones in the Midnight Soil",
+    "author": "V. E. Schwab",
+    "isLoaned": false
+  },
+  {
+    "id": 488,
+    "title": "Molka",
+    "author": "Monika Kim",
+    "isLoaned": false
+  },
+  {
+    "id": 489,
+    "title": "Anatomy of an Alibi",
+    "author": "Ashley Elston",
+    "isLoaned": false
+  },
+  {
+    "id": 490,
+    "title": "Lost Lambs",
+    "author": "Madeline Cash",
+    "isLoaned": false
+  },
+  {
+    "id": 491,
+    "title": "Crux",
+    "author": "Gabriel Tallent",
+    "isLoaned": false
+  },
+  {
+    "id": 492,
+    "title": "Best Offer Wins",
+    "author": "Marisa Kashino",
+    "isLoaned": false
+  },
+  {
+    "id": 493,
+    "title": "Dark Sisters",
+    "author": "Kristi DeMeester",
+    "isLoaned": false
+  },
+  {
+    "id": 494,
+    "title": "The Haunting of Paynes Hollow",
+    "author": "Marisa Kashino",
+    "isLoaned": false
+  },
+  {
+    "id": 495,
+    "title": "Whistle",
+    "author": "Linwood Barclay",
+    "isLoaned": false
+  },
+  {
+    "id": 496,
+    "title": "Dogs, Boys, and Other Things I've Cried About",
+    "author": "Jenn",
+    "isLoaned": false
+  },
+  {
+    "id": 497,
+    "title": "The Impossible Fortune",
+    "author": "Richard Osman",
+    "isLoaned": false
+  },
+  {
+    "id": 498,
+    "title": "The Marble Hall Murders",
+    "author": "Anthony Horowitz",
+    "isLoaned": false
+  },
+  {
+    "id": 499,
+    "title": "Graveyard Shift",
+    "author": "M. L. Rio",
+    "isLoaned": false
+  },
+  {
+    "id": 500,
+    "title": "Yesteryear",
+    "author": "Caro Claire Burke",
+    "isLoaned": false
+  },
+  {
+    "id": 501,
+    "title": "One of Us",
+    "author": "Elizabeth Day",
+    "isLoaned": false
+  },
+  {
+    "id": 502,
+    "title": "Ruins",
+    "author": "Lily Brooks Dalton",
+    "isLoaned": false
+  },
+  {
+    "id": 503,
+    "title": "Deception Point",
+    "author": "Dan Brown",
+    "isLoaned": false
   }
 ]
