@@ -3016,5 +3016,47 @@
     "title": "Deception Point",
     "author": "Dan Brown",
     "isLoaned": false
+  },
+  {
+    "id": 504,
+    "title": "Night Objects",
+    "author": "Eli Raphael",
+    "isLoaned": false
+  },
+  {
+    "id": 505,
+    "title": "The Catcher In The Rye",
+    "author": "J.D. Salinger",
+    "isLoaned": false
+  },
+  {
+    "id": 506,
+    "title": "Redbelly Crossing",
+    "author": "Candice Fox",
+    "isLoaned": false
+  },
+  {
+    "id": 507,
+    "title": "Dissection Of A Murder",
+    "author": "Jo Murray",
+    "isLoaned": false
+  },
+  {
+    "id": 508,
+    "title": "The One Day You Were My Husband",
+    "author": "Rosie Walsh",
+    "isLoaned": false
+  },
+  {
+    "id": 509,
+    "title": "Summer's Never Over",
+    "author": "Darby Bozeman",
+    "isLoaned": false
+  },
+  {
+    "id": 510,
+    "title": "Main Characters",
+    "author": "Bobby Palmer",
+    "isLoaned": false
   }
 ]
