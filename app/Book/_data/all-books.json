@@ -3058,5 +3058,65 @@
     "title": "Main Characters",
     "author": "Bobby Palmer",
     "isLoaned": false
+  },
+  {
+    "id": 511,
+    "title": "Nobody's Fool",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 512,
+    "title": "Run Away",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 513,
+    "title": "Fool Me Once",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 514,
+    "title": "The Stranger",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 515,
+    "title": "Don't Let Go",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 516,
+    "title": "The Boy From The Woods",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 517,
+    "title": "The Match",
+    "author": "Harlan Coben",
+    "isLoaned": false
+  },
+  {
+    "id": 518,
+    "title": "The Son Of Neptune",
+    "author": "Rick Riordan",
+    "isLoaned": false
+  },
+  {
+    "id": 519,
+    "title": "The Mark Of Athena",
+    "author": "Rick Riordan",
+    "isLoaned": false
+  },
+  {
+    "id": 520,
+    "title": "The House Of Hades",
+    "author": "Rick Riordan",
+    "isLoaned": false
   }
 ]
