@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback: let React Router handle client-side routes (e.g. /books)
+# instead of Netlify returning 404 on a direct hit or hard refresh.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
