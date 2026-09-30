@@ -22,6 +22,22 @@
   background-color: #f5faff;
 }
 
+.sortButton {
+  width: 100%;
+  padding: 0;
+  background: transparent;
+  border: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sortButton:focus-visible {
+  outline: 2px solid #0078d4;
+  outline-offset: 2px;
+}
+
 .thup {
   background-image: url("/up_arrow.png");
 }

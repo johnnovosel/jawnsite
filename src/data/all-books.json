@@ -906,12 +906,6 @@
     "isLoaned": false
   },
   {
-    "id": 152,
-    "title": "Black Coffee",
-    "author": "Agatha Christie",
-    "isLoaned": false
-  },
-  {
     "id": 153,
     "title": "Peril at End House",
     "author": "Agatha Christie",
@@ -2745,7 +2739,7 @@
     "id": 458,
     "title": "When The Wolf Comes Home",
     "author": "Nat Cassidy",
-    "isLoaned": false
+    "isLoaned": true
   },
   {
     "id": 459,
@@ -2960,7 +2954,7 @@
   {
     "id": 494,
     "title": "The Haunting of Paynes Hollow",
-    "author": "Marisa Kashino",
+    "author": "Kelley Armstrong",
     "isLoaned": false
   },
   {
@@ -3008,7 +3002,7 @@
   {
     "id": 502,
     "title": "Ruins",
-    "author": "Lily Brooks Dalton",
+    "author": "Lily Brooks-Dalton",
     "isLoaned": false
   },
   {
@@ -3117,6 +3111,114 @@
     "id": 520,
     "title": "The House Of Hades",
     "author": "Rick Riordan",
+    "isLoaned": false
+  },
+  {
+    "id": 521,
+    "title": "The Crow Trap",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 522,
+    "title": "Telling Tales",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 523,
+    "title": "Hidden Deaths",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 524,
+    "title": "The Glass Room",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 525,
+    "title": "Harbour Street",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 526,
+    "title": "The Moth Catcher",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 527,
+    "title": "The Seagull",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 528,
+    "title": "The Rising Tide",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 529,
+    "title": "The Darkest Evening",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 530,
+    "title": "The Dark Wives",
+    "author": "Ann Cleeves",
+    "isLoaned": false
+  },
+  {
+    "id": 531,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "isLoaned": false
+  },
+  {
+    "id": 532,
+    "title": "Local Gone Missing",
+    "author": "Fiona Barton",
+    "isLoaned": false
+  },
+  {
+    "id": 533,
+    "title": "The Lost Woman",
+    "author": "Sara Blaedel",
+    "isLoaned": false
+  },
+  {
+    "id": 534,
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "isLoaned": false
+  },
+  {
+    "id": 535,
+    "title": "Becoming The Boogey Man",
+    "author": "Richard Chizmar",
+    "isLoaned": false
+  },
+  {
+    "id": 536,
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 537,
+    "title": "Closed Casket",
+    "author": "Agatha Christie",
+    "isLoaned": false
+  },
+  {
+    "id": 538,
+    "title": "Understory",
+    "author": "Chloe Benjamin",
     "isLoaned": false
   }
 ]
