@@ -19,11 +19,7 @@ export default function BookTableHead({
       <tr>
         {columns.map(({ label, accessor }) => {
           const isActive = sortField === accessor
-          const cl = !isActive
-            ? 'thdefault'
-            : sortOrder === 'asc'
-              ? 'thup'
-              : 'thdown'
+          const arrow = !isActive ? '↕' : sortOrder === 'asc' ? '↑' : '↓'
           const ariaSort = isActive
             ? sortOrder === 'asc'
               ? 'ascending'
@@ -31,17 +27,23 @@ export default function BookTableHead({
             : 'none'
 
           return (
-            <th key={accessor} aria-sort={ariaSort} className={styles[cl]}>
+            <th
+              key={accessor}
+              aria-sort={ariaSort}
+              className={isActive ? styles.thActive : undefined}
+            >
               <button
                 type="button"
                 className={styles.sortButton}
                 onClick={() => onSort(accessor)}
               >
                 {label}
+                <span className={styles.sortArrow} aria-hidden="true">{arrow}</span>
               </button>
             </th>
           )
         })}
+        <th className={styles.statusCol}>Status</th>
       </tr>
     </thead>
   )

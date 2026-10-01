@@ -3,6 +3,7 @@ export interface Book {
   title: string
   author: string
   isLoaned: boolean
+  isCustom?: boolean
 }
 
 export type SortField = 'title' | 'author'

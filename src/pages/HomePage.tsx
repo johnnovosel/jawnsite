@@ -3,12 +3,12 @@ import styles from './HomePage.module.css'
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>Welcome to BookApp</h1>
-
+    <section className={styles.hero}>
+      <h1 className={styles.title}>Welcome to BookApp</h1>
+      <p className={styles.tagline}>Do I have this book? Search the whole collection in seconds.</p>
       <Link to="/books" className={styles.ctabutton}>
-        CLICK HERE FOR BOOK LIST
+        Browse the book list
       </Link>
-    </div>
+    </section>
   )
 }

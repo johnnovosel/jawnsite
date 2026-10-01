@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import BookTableHead from './BookTableHead'
 import BookTableBody from './BookTableBody'
+import styles from './book.module.css'
 import type { Book, SortField, SortOrder } from '../types/book'
 
 interface BookTableProps {
@@ -10,6 +11,7 @@ interface BookTableProps {
   sortField: SortField
   sortOrder: SortOrder
   onSort: (field: SortField) => void
+  onRemove?: (id: number) => void
 }
 
 // Sort by author surname (last whitespace-separated token) when sorting by
@@ -26,6 +28,7 @@ export default function BookTable({
   sortField,
   sortOrder,
   onSort,
+  onRemove,
 }: BookTableProps) {
   // Derive the visible rows from props — never mutate `books`, never copy it
   // into state. Recomputes only when an input actually changes.
@@ -48,14 +51,16 @@ export default function BookTable({
   }, [books, searchTerm, sortField, sortOrder])
 
   return (
-    <table>
-      <BookTableHead
-        columns={columns}
-        sortField={sortField}
-        sortOrder={sortOrder}
-        onSort={onSort}
-      />
-      <BookTableBody columns={columns} tableData={rows} />
-    </table>
+    <div className={styles.tableWrap}>
+      <table className={styles.table}>
+        <BookTableHead
+          columns={columns}
+          sortField={sortField}
+          sortOrder={sortOrder}
+          onSort={onSort}
+        />
+        <BookTableBody columns={columns} tableData={rows} onRemove={onRemove} />
+      </table>
+    </div>
   )
 }

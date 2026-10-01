@@ -1328,12 +1328,12 @@
   {
     "id": 223,
     "title": "As You Were",
-    "author": "Slaine Feeney",
+    "author": "Elaine Feeney",
     "isLoaned": false
   },
   {
     "id": 224,
-    "title": "A Beautifyul Blue Death",
+    "title": "A Beautiful Blue Death",
     "author": "Charles Finch",
     "isLoaned": false
   },
@@ -1579,7 +1579,7 @@
   },
   {
     "id": 265,
-    "title": "MoonFlower Murders",
+    "title": "Moonflower Murders",
     "author": "Anthony Horowitz",
     "isLoaned": false
   },
@@ -1665,12 +1665,6 @@
     "id": 279,
     "title": "Ask Again, Yes",
     "author": "Mary Beth Keane",
-    "isLoaned": false
-  },
-  {
-    "id": 280,
-    "title": "The River We Remember",
-    "author": "William Kent Krueger",
     "isLoaned": false
   },
   {
@@ -2348,7 +2342,7 @@
   {
     "id": 393,
     "title": "Whale Fall",
-    "author": "Elizabeth O. Duffy",
+    "author": "Elizabeth O'Connor",
     "isLoaned": false
   },
   {
@@ -2773,7 +2767,7 @@
   },
   {
     "id": 464,
-    "title": "What Stalks The Dead",
+    "title": "What Stalks The Deep",
     "author": "T. Kingfisher",
     "isLoaned": false
   },
@@ -2882,7 +2876,7 @@
   {
     "id": 482,
     "title": "Famous Last Words",
-    "author": "Gillian Flynn",
+    "author": "Gillian McAllister",
     "isLoaned": false
   },
   {
@@ -2966,7 +2960,7 @@
   {
     "id": 496,
     "title": "Dogs, Boys, and Other Things I've Cried About",
-    "author": "Jenn",
+    "author": "Isabel Klee",
     "isLoaned": false
   },
   {
@@ -3219,6 +3213,102 @@
     "id": 538,
     "title": "Understory",
     "author": "Chloe Benjamin",
+    "isLoaned": false
+  },
+  {
+    "id": 539,
+    "title": "The Paris Apartment",
+    "author": "Lucy Foley",
+    "isLoaned": false
+  },
+  {
+    "id": 540,
+    "title": "The Lies That Bind",
+    "author": "Emily Giffin",
+    "isLoaned": false
+  },
+  {
+    "id": 541,
+    "title": "A Violent Masterpiece",
+    "author": "Jordan Harper",
+    "isLoaned": false
+  },
+  {
+    "id": 542,
+    "title": "Kiss, Slay, Replay",
+    "author": "Rachel Harrison",
+    "isLoaned": false
+  },
+  {
+    "id": 543,
+    "title": "Spare",
+    "author": "Prince Harry",
+    "isLoaned": false
+  },
+  {
+    "id": 544,
+    "title": "The Heart Of Glass",
+    "author": "Jennifer Hillier",
+    "isLoaned": false
+  },
+  {
+    "id": 545,
+    "title": "Before You Were Anne",
+    "author": "Emiko Jean",
+    "isLoaned": false
+  },
+  {
+    "id": 546,
+    "title": "The Killer On The Road",
+    "author": "Stephen Graham Jones",
+    "isLoaned": false
+  },
+  {
+    "id": 547,
+    "title": "The Babysitter Lives",
+    "author": "Stephen Graham Jones",
+    "isLoaned": false
+  },
+  {
+    "id": 548,
+    "title": "Before You Were Anne",
+    "author": "Emiko Jean",
+    "isLoaned": false
+  },
+  {
+    "id": 549,
+    "title": "The River We Remember",
+    "author": "William Kent Krueger",
+    "isLoaned": false
+  },
+  {
+    "id": 550,
+    "title": "Luckiest Girl Alive",
+    "author": "Jessica Knoll",
+    "isLoaned": false
+  },
+  {
+    "id": 551,
+    "title": "The Plot",
+    "author": "Jean Hanff Korelitz",
+    "isLoaned": false
+  },
+  {
+    "id": 552,
+    "title": "When The Night Comes Knocking",
+    "author": "Katherine Daniel",
+    "isLoaned": false
+  },
+  {
+    "id": 553,
+    "title": "Hollywood, Ending",
+    "author": "John Green",
+    "isLoaned": false
+  },
+  {
+    "id": 554,
+    "title": "The Four Wives And Five Deaths Of Richard Milford",
+    "author": "Nafissa Thompson-Spires",
     "isLoaned": false
   }
 ]
