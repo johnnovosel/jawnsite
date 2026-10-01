@@ -2,12 +2,13 @@ import { useMemo } from 'react'
 import BookTableHead from './BookTableHead'
 import BookTableBody from './BookTableBody'
 import styles from './book.module.css'
-import type { Book, SortField, SortOrder } from '../types/book'
+import type { Book, SortField, SortOrder, StatusFilter } from '../types/book'
 
 interface BookTableProps {
   books: Book[]
   columns: { label: string; accessor: SortField }[]
   searchTerm: string
+  statusFilter: StatusFilter
   sortField: SortField
   sortOrder: SortOrder
   onSort: (field: SortField) => void
@@ -25,6 +26,7 @@ export default function BookTable({
   books,
   columns,
   searchTerm,
+  statusFilter,
   sortField,
   sortOrder,
   onSort,
@@ -39,8 +41,10 @@ export default function BookTable({
     return books
       .filter(
         (book) =>
-          book.title.toLowerCase().includes(term) ||
-          book.author.toLowerCase().includes(term),
+          (statusFilter === 'all' ||
+            (statusFilter === 'loaned') === book.isLoaned) &&
+          (book.title.toLowerCase().includes(term) ||
+            book.author.toLowerCase().includes(term)),
       )
       .sort(
         (a, b) =>
@@ -48,7 +52,7 @@ export default function BookTable({
             numeric: true,
           }) * direction,
       )
-  }, [books, searchTerm, sortField, sortOrder])
+  }, [books, searchTerm, statusFilter, sortField, sortOrder])
 
   return (
     <div className={styles.tableWrap}>

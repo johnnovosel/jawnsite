@@ -8,3 +8,4 @@ export interface Book {
 
 export type SortField = 'title' | 'author'
 export type SortOrder = 'asc' | 'desc'
+export type StatusFilter = 'all' | 'owned' | 'loaned'
