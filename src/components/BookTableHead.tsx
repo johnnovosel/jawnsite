@@ -43,6 +43,7 @@ export default function BookTableHead({
             </th>
           )
         })}
+        <th className={`${styles.statusCol} ${styles.ratingCol}`}>Rating</th>
         <th className={styles.statusCol}>Status</th>
       </tr>
     </thead>

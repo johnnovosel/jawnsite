@@ -1,42 +1,28 @@
+/* Cozy bookshop palette: cream paper, sage green, sand and walnut. */
 :root {
-  --bg: #f5f7fb;
-  --surface: rgba(255, 255, 255, 0.9);
-  --card: #ffffff;
-  --text: #1c2333;
-  --muted: #5d6679;
-  --border: #e2e7f0;
-  --hover: #eef2f9;
-  --accent: #4f46e5;
-  --accent-2: #7c3aed;
-  --accent-soft: rgba(79, 70, 229, 0.15);
-  --loaned-bg: #fff7e0;
-  --loaned-text: #8a5a00;
-  --owned-bg: #e3f6ea;
-  --owned-text: #1b6b3a;
-  --danger: #c0392b;
-  --shadow: 0 2px 12px rgba(20, 30, 60, 0.08);
-  color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #11141c;
-    --surface: rgba(24, 28, 40, 0.9);
-    --card: #1a1f2c;
-    --text: #e8ebf3;
-    --muted: #9aa3b8;
-    --border: #2b3244;
-    --hover: #232a3a;
-    --accent: #818cf8;
-    --accent-2: #a78bfa;
-    --accent-soft: rgba(129, 140, 248, 0.2);
-    --loaned-bg: #3a2f10;
-    --loaned-text: #f5c96a;
-    --owned-bg: #123324;
-    --owned-text: #7fdca4;
-    --danger: #ff7b6b;
-    --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
-  }
+  --bg: #f1e9d6;
+  --surface: #4a3b2c;
+  --card: #fbf7ec;
+  --text: #43352a;
+  --muted: #7d6b58;
+  --border: #ded2b8;
+  --hover: #f1e8d2;
+  --accent: #7d8f6c;
+  --accent-dark: #5b6e4d;
+  --accent-2: #a8b595;
+  --accent-soft: rgba(125, 143, 108, 0.25);
+  --sand: #c9b48c;
+  --gold: #c2913f;
+  --star-off: #d6c8a8;
+  --loaned-bg: #f3dfc2;
+  --loaned-text: #8a5a22;
+  --owned-bg: #dfe8d2;
+  --owned-text: #4d6340;
+  --danger: #a4533f;
+  --shadow: 0 2px 8px rgba(90, 70, 45, 0.12);
+  --shadow-lg: 0 10px 30px rgba(90, 70, 45, 0.22);
+  --serif: Lora, Georgia, 'Times New Roman', serif;
+  color-scheme: light;
 }
 
 * {
@@ -46,10 +32,18 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: radial-gradient(rgba(125, 100, 60, 0.07) 1px, transparent 1px);
+  background-size: 18px 18px;
   color: var(--text);
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
+  font-family: var(--serif);
+  line-height: 1.55;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
 }
 
 @media (prefers-reduced-motion: reduce) {

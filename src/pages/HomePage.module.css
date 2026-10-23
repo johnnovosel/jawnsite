@@ -6,31 +6,33 @@
 .title {
   font-size: clamp(2rem, 6vw, 3.2rem);
   margin: 0 0 0.75rem;
-  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 .tagline {
   color: var(--muted);
+  font-style: italic;
   font-size: 1.15rem;
   margin: 0 0 2rem;
 }
 
 .ctabutton {
   display: inline-block;
-  padding: 0.9rem 2rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #fff;
+  padding: 0.85rem 2rem;
+  border-radius: 6px;
+  background: var(--accent);
+  border: 1px solid var(--accent-dark);
+  color: #fbf7ec;
   font-weight: 600;
   font-size: 1.05rem;
   text-decoration: none;
-  box-shadow: 0 6px 18px var(--accent-soft);
+  box-shadow: var(--shadow);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .ctabutton:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px var(--accent-soft);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (prefers-reduced-motion: reduce) {

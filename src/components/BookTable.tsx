@@ -2,17 +2,19 @@ import { useMemo } from 'react'
 import BookTableHead from './BookTableHead'
 import BookTableBody from './BookTableBody'
 import styles from './book.module.css'
-import type { Book, SortField, SortOrder, StatusFilter } from '../types/book'
+import type { Book, ReadFilter, SortField, SortOrder, StatusFilter } from '../types/book'
 
 interface BookTableProps {
   books: Book[]
   columns: { label: string; accessor: SortField }[]
   searchTerm: string
   statusFilter: StatusFilter
+  readFilter: ReadFilter
   sortField: SortField
   sortOrder: SortOrder
+  selectedId?: number
   onSort: (field: SortField) => void
-  onRemove?: (id: number) => void
+  onSelect: (id: number) => void
 }
 
 // Sort by author surname (last whitespace-separated token) when sorting by
@@ -27,10 +29,12 @@ export default function BookTable({
   columns,
   searchTerm,
   statusFilter,
+  readFilter,
   sortField,
   sortOrder,
+  selectedId,
   onSort,
-  onRemove,
+  onSelect,
 }: BookTableProps) {
   // Derive the visible rows from props — never mutate `books`, never copy it
   // into state. Recomputes only when an input actually changes.
@@ -43,6 +47,7 @@ export default function BookTable({
         (book) =>
           (statusFilter === 'all' ||
             (statusFilter === 'loaned') === book.isLoaned) &&
+          (readFilter === 'any' || (readFilter === 'read') === !!book.isRead) &&
           (book.title.toLowerCase().includes(term) ||
             book.author.toLowerCase().includes(term)),
       )
@@ -52,7 +57,7 @@ export default function BookTable({
             numeric: true,
           }) * direction,
       )
-  }, [books, searchTerm, statusFilter, sortField, sortOrder])
+  }, [books, searchTerm, statusFilter, readFilter, sortField, sortOrder])
 
   return (
     <div className={styles.tableWrap}>
@@ -63,7 +68,10 @@ export default function BookTable({
           sortOrder={sortOrder}
           onSort={onSort}
         />
-        <BookTableBody columns={columns} tableData={rows} onRemove={onRemove} />
+        <BookTableBody columns={columns} tableData={rows}
+          selectedId={selectedId}
+          onSelect={onSelect}
+        />
       </table>
     </div>
   )
