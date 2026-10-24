@@ -3538,5 +3538,11 @@
     "title": "Nancy Drew - 24: The Clue In The Old Album",
     "author": "Caroline Keene",
     "isLoaned": false
+  },
+  {
+    "id": 593,
+    "title": "The Return Of Ellie Black",
+    "author": "Emiko Jean",
+    "isLoaned": false
   }
 ]
