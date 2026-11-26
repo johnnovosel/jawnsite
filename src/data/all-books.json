@@ -3544,5 +3544,53 @@
     "title": "The Return Of Ellie Black",
     "author": "Emiko Jean",
     "isLoaned": false
+  },
+  {
+    "id": 594,
+    "title": "Public Access Afterworld",
+    "author": "Jane Schoenbrun",
+    "isLoaned": false
+  },
+  {
+    "id": 595,
+    "title": "Whale Harbor",
+    "author": "Mary Beth Keane",
+    "isLoaned": false
+  },
+  {
+    "id": 596,
+    "title": "Revenge Plot",
+    "author": "Stephanie Wrobel",
+    "isLoaned": false
+  },
+  {
+    "id": 597,
+    "title": "The Counting Game",
+    "author": "Sinead Nolan",
+    "isLoaned": false
+  },
+  {
+    "id": 598,
+    "title": "American Crow",
+    "author": "Ryan Burruss",
+    "isLoaned": false
+  },
+  {
+    "id": 599,
+    "title": "Exiles",
+    "author": "Mason Coile",
+    "isLoaned": false
+  },
+  {
+    "id": 600,
+    "title": "All Creatures Living Beneath The Sun",
+    "author": "C. S. Fritz",
+    "isLoaned": false
+  },
+  {
+    "id": 601,
+    "title": "The Apollo Murders",
+    "author": "Chris Hadfield",
+    "isLoaned": false
   }
 ]
